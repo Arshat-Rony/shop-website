@@ -1,0 +1,27 @@
+.dashboard {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.dash-board {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.pie-chart,
+.linechart,
+.bar-chart,
+.area-chart {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+@media (min-width:768px) {
+    .dash-board {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
