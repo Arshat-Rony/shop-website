@@ -5,6 +5,12 @@ This project was bootstrapped with
 
 
 ## Project Overview.
+Markup : ```javascript
+         ```
+          Markup : * Bullet list
+              * Nested bullet
+                  * Sub-nested bullet etc
+          * Bullet list item 2
  Markup : * Bullet list
         * Firstly this project is made with reactJs.
         * We have first made a header with react router where you can change your route without refreshing your page.
