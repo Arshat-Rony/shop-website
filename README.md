@@ -1,6 +1,7 @@
 # Getting Started with Dokan A simple application
 
-This project was bootstrapped with *[Dokan a simple shop Application :](https://github.com/facebook/create-react-app).
+This project was bootstrapped with 
+[https://poetic-bavarois-22781d.netlify.app/home](https://poetic-bavarois-22781d.netlify.app/home).
 
 
 ## Project Overview.
