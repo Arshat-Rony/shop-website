@@ -7,7 +7,7 @@ This project was bootstrapped with
 ## Project Overview.
 ```javascript
 ```
-
+ __Doakn A simple shop projecet__ 
     - Firstly this project is made with reactJs.
     - We have first made a header with react router where you can change your route without refreshing your page.
     - Then we add our product which needs to sell.
