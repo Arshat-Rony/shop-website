@@ -57,11 +57,36 @@ h2 {
     color: white;
     font-weight: bold;
     transition: all 0.9s;
+    cursor: pointer;
 }
 
 .demo-btn:hover {
     background-color: black;
     color: white;
+}
+
+.reviews {
+    max-width: 80%;
+    margin: 60px auto;
+}
+
+.review-heading {
+    margin-top: 120px;
+    position: relative;
+    color: rgba(212, 179, 179, 0.493);
+    z-index: 999;
+    font-size: 3rem;
+    display: inline-block;
+}
+
+.review-heading::before {
+    content: 'Reviews';
+    position: absolute;
+    top: 20px;
+    left: 70px;
+    color: black;
+    font-size: 2.5rem;
+    z-index: 0;
 }
 
 @media (min-width:768px) {
@@ -80,4 +105,12 @@ h2 {
         margin-top: 80px;
     }
 
+}
+
+@media (min-width:992px) {
+    .reviews {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 10px;
+    }
 }
