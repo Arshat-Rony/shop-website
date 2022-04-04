@@ -36,13 +36,14 @@
 
 .home-detail h1,
 h2 {
-    font-size: 40px;
+    font-size: 39px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .home-detail p {
     padding-right: 15px;
 }
+
 
 .best {
     color: crimson;
